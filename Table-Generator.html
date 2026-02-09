@@ -3,108 +3,183 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - Table Generator</title>
+    <title>Privacy Policy | Table Generator</title>
+
     <style>
+        :root {
+            --primary: #1f2937;
+            --secondary: #4b5563;
+            --accent: #2563eb;
+            --background: #f9fafb;
+            --card: #ffffff;
+            --border: #e5e7eb;
+        }
+
         body {
-            font-family: Arial, Helvetica, sans-serif;
-            line-height: 1.6;
-            max-width: 800px;
-            margin: 40px auto;
+            margin: 0;
+            padding: 0;
+            font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background: var(--background);
+            color: var(--primary);
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 60px auto;
             padding: 0 20px;
-            color: #222;
-            background-color: #ffffff;
         }
-        h1, h2 {
-            color: #111;
+
+        .card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 40px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
         }
+
         h1 {
+            font-size: 2rem;
             margin-bottom: 10px;
+            color: var(--primary);
         }
+
+        .subtitle {
+            color: var(--secondary);
+            font-size: 0.95rem;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            font-size: 1.25rem;
+            margin-top: 35px;
+            margin-bottom: 10px;
+            color: var(--accent);
+        }
+
         p {
+            line-height: 1.7;
             margin: 10px 0;
+            color: var(--primary);
         }
+
         ul {
-            margin-left: 20px;
+            margin: 15px 0 15px 20px;
         }
+
+        ul li {
+            margin: 8px 0;
+            color: var(--secondary);
+        }
+
+        .highlight {
+            background: #eff6ff;
+            border-left: 4px solid var(--accent);
+            padding: 15px 20px;
+            border-radius: 6px;
+            margin: 20px 0;
+            color: var(--primary);
+        }
+
         footer {
             margin-top: 40px;
-            font-size: 0.9em;
-            color: #555;
+            padding-top: 20px;
+            border-top: 1px solid var(--border);
+            font-size: 0.9rem;
+            color: var(--secondary);
+        }
+
+        a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
 
-<h1>Privacy Policy for Table Generator</h1>
+<div class="container">
+    <div class="card">
 
-<p><strong>Effective Date:</strong> <!-- Add date here --></p>
+        <h1>Privacy Policy</h1>
+        <div class="subtitle">
+            Table Generator &nbsp;•&nbsp; Effective Date: <strong><!-- Add date --></strong>
+        </div>
 
-<p>
-Table Generator is a simple Android application that allows users to generate
-multiplication tables (from 1 to 10) by entering a number.
-Your privacy is respected and protected.
-</p>
+        <p>
+            Table Generator is a simple Android application that generates
+            multiplication tables (from 1 to 10) based on a number entered by the user.
+            This Privacy Policy explains how the app handles user information.
+        </p>
 
-<h2>Information Collection and Use</h2>
-<p>
-Table Generator does <strong>not collect, store, transmit, or share</strong> any
-personal or non-personal information.
-</p>
+        <div class="highlight">
+            Table Generator does <strong>not collect, store, share, or transmit</strong>
+            any personal or non-personal data.
+        </div>
 
-<ul>
-    <li>No user data is requested</li>
-    <li>No data is stored locally or remotely</li>
-    <li>No data is sent to any server</li>
-    <li>No ads, analytics, or tracking tools are used</li>
-</ul>
+        <h2>Information Collection and Use</h2>
+        <p>
+            The app does not require user registration and does not request any
+            personal information. The number entered by the user is processed only
+            to generate the multiplication table and is immediately discarded.
+        </p>
 
-<p>
-The number entered by the user is processed only to generate the multiplication
-table and is not saved or retained in any form.
-</p>
+        <ul>
+            <li>No data collection of any kind</li>
+            <li>No local or remote storage</li>
+            <li>No background data processing</li>
+            <li>No ads, analytics, or tracking technologies</li>
+        </ul>
 
-<h2>Offline Usage</h2>
-<p>
-Table Generator works entirely offline. An internet connection is not required,
-and the app does not perform any network communication.
-</p>
+        <h2>Offline Functionality</h2>
+        <p>
+            Table Generator operates entirely offline. An internet connection is
+            not required, and the app does not perform any network communication.
+        </p>
 
-<h2>Third-Party Services</h2>
-<p>
-This app does not use any third-party services, SDKs, analytics tools,
-or advertising platforms that collect user data.
-</p>
+        <h2>Third-Party Services</h2>
+        <p>
+            This application does not integrate with any third-party services,
+            SDKs, advertising platforms, or analytics tools.
+        </p>
 
-<h2>Children’s Privacy</h2>
-<p>
-Table Generator is suitable for all ages. Since no data is collected,
-the app does not knowingly collect information from children under the age of 13.
-</p>
+        <h2>Children’s Privacy</h2>
+        <p>
+            Table Generator is suitable for users of all ages. Since the app does
+            not collect any data, it fully complies with children’s privacy
+            protection regulations.
+        </p>
 
-<h2>Data Security</h2>
-<p>
-Because no data is collected or stored, there is no risk of data misuse,
-leakage, or unauthorized access.
-</p>
+        <h2>Data Security</h2>
+        <p>
+            As no data is collected or stored, there is no risk of unauthorized
+            access, data leakage, or misuse.
+        </p>
 
-<h2>Changes to This Privacy Policy</h2>
-<p>
-This Privacy Policy may be updated if the app’s functionality changes.
-Any updates will be reflected on this page.
-</p>
+        <h2>Changes to This Privacy Policy</h2>
+        <p>
+            This Privacy Policy may be updated if the app’s functionality changes.
+            Any updates will be published on this page.
+        </p>
 
-<h2>Contact Information</h2>
-<p>
-If you have any questions about this Privacy Policy, you may contact us at:
-</p>
+        <h2>Contact Information</h2>
+        <p>
+            If you have any questions or concerns regarding this Privacy Policy,
+            please contact us at:
+        </p>
 
-<p>
-<strong>Email:</strong> your-email@example.com
-</p>
+        <p>
+            <strong>Email:</strong> your-email@example.com
+        </p>
 
-<footer>
-    <p>&copy; Table Generator. All rights reserved.</p>
-</footer>
+        <footer>
+            © Table Generator. All rights reserved.
+        </footer>
+
+    </div>
+</div>
 
 </body>
 </html>
