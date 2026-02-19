@@ -7,86 +7,103 @@
 
     <style>
         :root {
-            --primary: #111827;
-            --secondary: #6b7280;
-            --accent: #121212;
-            --background: #f9fafb;
-            --card: #ffffff;
-            --border: #e5e7eb;
+            /* Backgrounds */
+            --bg-primary: #121212;
+            --bg-gradient-start: #0A0E17;
+            --bg-gradient-end: #1A2233;
+            --card-bg: #1E1E1E;
+            --header-bg: #252525;
+
+            /* Accents */
+            --neon-blue: #00E5FF;
+            --neon-purple: #6200EE;
+            --light-purple: #BB86FC;
+            --neon-pink: #FF4081;
+
+            /* Text */
+            --text-primary: #FFFFFF;
+            --text-secondary: #888888;
+
+            /* Borders */
+            --border: #2a2a2a;
         }
 
         body {
             margin: 0;
             padding: 0;
             font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background: var(--background);
-            color: var(--primary);
+            background: linear-gradient(180deg, var(--bg-gradient-start), var(--bg-primary), var(--bg-gradient-end));
+            color: var(--text-primary);
         }
 
         .container {
             max-width: 900px;
-            margin: 60px auto;
+            margin: 70px auto;
             padding: 0 20px;
         }
 
         .card {
-            background: var(--card);
+            background: var(--card-bg);
             border: 1px solid var(--border);
-            border-radius: 12px;
+            border-radius: 14px;
             padding: 40px;
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
         }
 
         h1 {
             font-size: 2rem;
             margin-bottom: 10px;
+            color: var(--neon-blue);
         }
 
         .subtitle {
-            color: var(--secondary);
+            color: var(--text-secondary);
             font-size: 0.95rem;
             margin-bottom: 30px;
         }
 
         h2 {
             font-size: 1.25rem;
-            margin-top: 35px;
-            margin-bottom: 10px;
-            color: var(--accent);
+            margin-top: 36px;
+            margin-bottom: 12px;
+            color: var(--light-purple);
         }
 
         p {
-            line-height: 1.7;
+            line-height: 1.8;
             margin: 10px 0;
+            color: var(--text-primary);
         }
 
         ul {
-            margin: 15px 0 15px 20px;
+            margin: 15px 0 15px 22px;
         }
 
         ul li {
             margin: 8px 0;
-            color: var(--secondary);
+            color: var(--text-secondary);
         }
 
         .highlight {
-            background: #f3f4f6;
-            border-left: 4px solid var(--accent);
-            padding: 15px 20px;
-            border-radius: 6px;
-            margin: 20px 0;
+            background: linear-gradient(135deg, rgba(0,229,255,0.1), rgba(98,0,238,0.1));
+            border-left: 4px solid var(--neon-blue);
+            padding: 16px 22px;
+            border-radius: 8px;
+            margin: 24px 0;
+            color: var(--text-primary);
         }
 
         footer {
-            margin-top: 40px;
-            padding-top: 20px;
+            margin-top: 45px;
+            padding-top: 22px;
             border-top: 1px solid var(--border);
             font-size: 0.9rem;
-            color: var(--secondary);
+            color: var(--text-secondary);
+            text-align: center;
         }
 
         a {
-            color: var(--accent);
+            color: var(--neon-pink);
             text-decoration: none;
         }
 
@@ -102,67 +119,67 @@
 
         <h1>Privacy Policy</h1>
         <div class="subtitle">
-            Stopwatch &nbsp;•&nbsp; Effective Date: <strong>09/02/2026</strong>
+            Stopwatch App &nbsp;•&nbsp; Effective Date: <strong>09/02/2026</strong>
         </div>
 
         <p>
-            Stopwatch is a simple timing application that allows users to start,
-            pause, reset, and measure elapsed time with precision. This Privacy
-            Policy explains how the app handles user information.
+            Stopwatch is a simple and precise timing application designed to measure
+            elapsed time with start, pause, and reset controls. This Privacy Policy
+            explains how the app handles user information.
         </p>
 
         <div class="highlight">
-            Stopwatch does <strong>not collect, store, share, or transmit</strong>
-            any personal or non-personal data.
+            Stopwatch does <strong>not collect, store, share, track, or transmit</strong>
+            any personal or non-personal data — ever.
         </div>
 
         <h2>Information Collection and Use</h2>
         <p>
-            The app does not require user registration and does not request any
-            personal information. All timing operations are performed locally on
-            the device and are not saved or transmitted.
+            The app does not require registration, accounts, or permissions.
+            Timing data exists only temporarily on the screen and is discarded
+            immediately when reset or when the app is closed.
         </p>
 
         <ul>
-            <li>No data collection of any kind</li>
-            <li>No storage of timing history</li>
-            <li>No background data processing</li>
-            <li>No ads, analytics, or tracking technologies</li>
+            <li>No personal information collected</li>
+            <li>No usage tracking or analytics</li>
+            <li>No background processes</li>
+            <li>No ads or behavioral profiling</li>
         </ul>
 
         <h2>Offline Functionality</h2>
         <p>
-            Stopwatch operates entirely offline. An internet connection is not
-            required, and the app does not perform any network communication.
+            Stopwatch operates entirely offline. It does not require an internet
+            connection and performs no network communication of any kind.
         </p>
 
         <h2>Third-Party Services</h2>
         <p>
-            This application does not integrate with any third-party services,
-            SDKs, advertising platforms, or analytics tools.
+            This app does not integrate with third-party SDKs, analytics platforms,
+            advertising services, or external APIs.
         </p>
 
         <h2>Children’s Privacy</h2>
         <p>
-            Stopwatch is suitable for users of all ages. Since no data is
-            collected, it complies with children’s privacy protection regulations.
+            Stopwatch is safe for users of all ages. Since no data is collected,
+            the app complies fully with children’s privacy protection regulations.
         </p>
 
         <h2>Data Security</h2>
         <p>
-            Because no data is collected or stored, there is no risk of
-            unauthorized access, data leakage, or misuse.
+            As no data is collected or stored, there is no risk of data leakage,
+            misuse, or unauthorized access.
         </p>
 
         <h2>Changes to This Privacy Policy</h2>
         <p>
             This Privacy Policy may be updated if the app’s functionality changes.
-            Any updates will be published on this page.
+            Any revisions will be published on this page.
         </p>
 
         <h2>Contact Information</h2>
         <p>
-            If you have any questions regarding this Privacy Policy, please contact:
+            If you have questions or concerns regarding this Privacy Policy, contact:
         </p>
 
         <p>
@@ -171,7 +188,7 @@
         </p>
 
         <footer>
-            © Stopwatch. All rights reserved.
+            © Stopwatch App. All rights reserved.
         </footer>
 
     </div>
