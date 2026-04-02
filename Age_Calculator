@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Privacy Policy | Age Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        :root {
+            --primary: #1976D2;      /* Strong Blue */
+            --secondary: #42A5F5;    /* Lighter Blue */
+            --accent: #90CAF9;       /* Soft Blue */
+            --background: #FFFFFF;   /* Pure White */
+            --card-bg: #FFFFFF;
+            --text-primary: #0D3B66;
+            --text-secondary: #4A627A;
+            --border: #E3F2FD;       /* Very light blue tint */
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            background: var(--background);
+            color: var(--text-primary);
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 60px auto;
+            padding: 0 20px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 28px;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(25, 118, 210, 0.08);
+        }
+
+        h1 {
+            color: var(--primary);
+            margin-bottom: 10px;
+            font-size: 2rem;
+            letter-spacing: -0.3px;
+        }
+
+        .subtitle {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: var(--secondary);
+            margin-top: 35px;
+            font-size: 1.3rem;
+            border-left: 4px solid var(--accent);
+            padding-left: 12px;
+        }
+
+        p {
+            line-height: 1.7;
+            margin: 12px 0;
+            color: var(--text-secondary);
+        }
+
+        ul {
+            margin: 15px 0 15px 22px;
+        }
+
+        ul li {
+            margin: 8px 0;
+            color: var(--text-secondary);
+        }
+
+        .highlight {
+            background: rgba(25, 118, 210, 0.06);
+            border-left: 5px solid var(--accent);
+            padding: 18px 22px;
+            border-radius: 16px;
+            margin: 25px 0;
+            font-weight: 500;
+            color: var(--text-primary);
+        }
+
+        .info-box {
+            background: rgba(66, 165, 245, 0.08);
+            border: 1px solid rgba(25, 118, 210, 0.2);
+            border-radius: 12px;
+            padding: 16px 20px;
+            margin: 20px 0;
+        }
+
+        footer {
+            margin-top: 45px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+        }
+
+        a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: var(--accent);
+        }
+
+        strong {
+            color: var(--primary);
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="card">
+
+        <h1>📅 Privacy Policy</h1>
+        <div class="subtitle">
+            Age Calculator &nbsp;•&nbsp; Effective Date: 03/04/2026
+        </div>
+
+        <p>
+            Age Calculator is a simple utility app that calculates your exact age in years, months, and days based on your date of birth. 
+            Enter your birth date, and the app instantly shows how much time has passed — down to the day.
+        </p>
+
+        <div class="highlight">
+            🔒 Your date of birth stays on your device. We do not collect, store, transmit, or share any personal information — including your birth date or age.
+        </div>
+
+        <h2>Information Collection and Use</h2>
+        <p>
+            Age Calculator does <strong>not collect, store, or transmit</strong> any personal or non-personal data. 
+            The date of birth you enter is used only for the immediate calculation and is <strong>never saved</strong> to any storage, database, or server. 
+            Each time you open the app, you can enter your birth date again — no data persists between sessions.
+        </p>
+        <ul>
+            <li>No personal data (name, email, location, birth date) is collected</li>
+            <li>No age calculation history is stored</li>
+            <li>No analytics or crash reporting tools are used</li>
+            <li>No internet connection is required or used</li>
+        </ul>
+
+        <h2>App Permissions</h2>
+        <p>
+            Age Calculator requires <strong>no special permissions</strong> to function. 
+            It does not access your storage, camera, microphone, contacts, location, or any other system features. 
+            You can install and use the app immediately without granting any permissions.
+        </p>
+
+        <h2>Offline Functionality</h2>
+        <p>
+            The app works completely offline. No internet connection is ever required — all age calculations are performed locally on your device using the device's system clock. 
+            The app never connects to external servers, APIs, or cloud services.
+        </p>
+
+        <h2>Third-Party Services</h2>
+        <p>
+            Age Calculator contains no third‑party SDKs, advertisements, analytics providers, or tracking libraries. 
+            There are no ads, no in-app purchases, and no external dependencies. Everything is self‑contained to guarantee your privacy.
+        </p>
+
+        <h2>Children’s Privacy</h2>
+        <p>
+            Since no data is collected from any users, Age Calculator fully complies with children’s data protection regulations 
+            such as COPPA, GDPR‑K, and other global privacy laws. The app is safe for all ages.
+        </p>
+
+        <h2>Data Security</h2>
+        <p>
+            Because no information is collected, stored, or transmitted, there is zero risk of unauthorized access, data breaches, or misuse. 
+            Your date of birth and age remain yours alone — they never leave your device.
+        </p>
+
+        <h2>Data Retention</h2>
+        <p>
+            Age Calculator does <strong>not retain any user data</strong>. The date of birth you enter is stored temporarily in the app's memory only while the app is open. 
+            Once you close the app, all entered information is discarded. No data is saved to the device's storage, and no data is retained by the application or the developer.
+        </p>
+
+        <div class="info-box">
+            💡 <strong>No persistent storage:</strong> Each time you open Age Calculator, you start fresh. The app does not remember your previous birth date or age.
+        </div>
+
+        <h2>Data Deletion</h2>
+        <p>
+            Since the app never stores any user data, there is <strong>no user data to delete</strong>. 
+            Simply closing the app removes any temporary information from memory. 
+            If you uninstall the app, all associated temporary data is automatically removed. No further action is required.
+        </p>
+
+        <h2>Changes to This Privacy Policy</h2>
+        <p>
+            This Privacy Policy may be updated if the app’s functionality changes. Any updates will be reflected on this page 
+            with a revised effective date. We encourage you to review it occasionally, though the zero‑data commitment will always remain.
+        </p>
+
+        <h2>Contact Information</h2>
+        <p>
+            If you have any questions regarding this Privacy Policy or the app’s privacy practices, you may contact:
+        </p>
+        <p>
+            <strong>Email:</strong>
+            <a href="mailto:Sugani02021998@gmail.com">
+                Sugani02021998@gmail.com
+            </a>
+        </p>
+
+        <footer>
+            © Age Calculator. Simple, private, and accurate — your age, your privacy.
+        </footer>
+
+    </div>
+</div>
+
+</body>
+</html>
