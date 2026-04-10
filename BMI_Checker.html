@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Privacy Policy | BMI Checker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        :root {
+            --primary: #2E7D32;      /* Deep Green */
+            --secondary: #43A047;    /* Vibrant Green */
+            --accent: #66BB6A;       /* Soft Green */
+            --background: #FFFFFF;   /* Pure White */
+            --card-bg: #FFFFFF;
+            --text-primary: #1B5E20;
+            --text-secondary: #2E3B2E;
+            --border: #E8F5E9;       /* Light green tint */
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background: var(--background);
+            color: var(--text-primary);
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 60px auto;
+            padding: 0 20px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(46, 125, 50, 0.08);
+        }
+
+        h1 {
+            color: var(--primary);
+            margin-bottom: 10px;
+            font-size: 2rem;
+        }
+
+        .subtitle {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: var(--secondary);
+            margin-top: 35px;
+            font-size: 1.3rem;
+            border-left: 4px solid var(--accent);
+            padding-left: 12px;
+        }
+
+        p {
+            line-height: 1.7;
+            margin: 12px 0;
+            color: var(--text-secondary);
+        }
+
+        ul {
+            margin: 15px 0 15px 22px;
+        }
+
+        ul li {
+            margin: 8px 0;
+            color: var(--text-secondary);
+        }
+
+        .highlight {
+            background: rgba(46, 125, 50, 0.06);
+            border-left: 5px solid var(--accent);
+            padding: 18px 22px;
+            border-radius: 14px;
+            margin: 25px 0;
+            font-weight: 500;
+            color: var(--text-primary);
+        }
+
+        footer {
+            margin-top: 45px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+        }
+
+        a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: var(--accent);
+        }
+
+        strong {
+            color: var(--primary);
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="card">
+
+        <h1>Privacy Policy</h1>
+        <div class="subtitle">
+            BMI Checker &nbsp;•&nbsp; Effective Date: 10 April 2026
+        </div>
+
+        <p>
+            BMI Checker is a health & fitness app that calculates your Body Mass Index. 
+            You get 5 free calculations, after which each calculation costs 25 in‑app coins. 
+            Coins can be purchased through the integrated Google Play Billing system.
+        </p>
+
+        <div class="highlight">
+            🔐 We take your privacy seriously. This app uses Firebase Authentication and Firestore to manage user accounts and store your coin balance and remaining free calculations. No health data (weight/height) is stored permanently — only the coin/free‑use counters are saved to your account.
+        </div>
+
+        <h2>Information We Collect</h2>
+        <p>
+            To provide the core functionality, we collect the following limited information:
+        </p>
+        <ul>
+            <li><strong>Account credentials</strong> – Your email address and a securely hashed password (handled entirely by Firebase Authentication).</li>
+            <li><strong>User progress data</strong> – Your current coin balance and number of remaining free calculations. This is stored in Firebase Firestore and linked to your user ID.</li>
+            <li><strong>Purchase information</strong> – When you buy coins, Google Play processes the transaction. We only receive confirmation that the purchase succeeded and the amount of coins to add. We do not see your credit card or payment details.</li>
+        </ul>
+        <p>
+            <strong>What we DO NOT collect:</strong> We do not collect or store the weight, height, or BMI results you calculate. Those values are used only for the instant calculation and are never saved to any database or log.
+        </p>
+
+        <h2>How We Use Your Information</h2>
+        <ul>
+            <li>Email and password are used only for account creation and login (Firebase Authentication).</li>
+            <li>Coin balance and free‑use counter are used to determine whether a calculation can be performed and to update your balance after each calculation or purchase.</li>
+            <li>Purchase confirmations are used to add the correct number of coins to your account.</li>
+        </ul>
+
+        <h2>Firebase Services</h2>
+        <p>
+            This app relies on <strong>Firebase Authentication</strong> and <strong>Firestore Database</strong> (both provided by Google). 
+            Your email address and encrypted password are stored on Google’s secure servers. Your coin balance and free‑use count are stored in Firestore. 
+            Firebase may collect certain technical data (e.g., device type, OS version) for security and performance – please refer to Google’s Privacy Policy for details.
+        </p>
+
+        <h2>In‑App Purchases (Google Play Billing)</h2>
+        <p>
+            BMI Checker uses Google Play Billing to sell coin packs (100 coins for $2.99, 500 coins for $15.99). 
+            All payments are handled entirely by Google. We never receive your payment information. 
+            After a successful purchase, Google notifies the app, and we add the coins to your Firestore record.
+        </p>
+
+        <h2>Data Sharing</h2>
+        <p>
+            We do not sell, trade, or rent your personal information to third parties. 
+            The only external services involved are:
+        </p>
+        <ul>
+            <li>Firebase (Google) – for authentication and database storage.</li>
+            <li>Google Play Billing – for processing in‑app purchases.</li>
+        </ul>
+        <p>Both are bound by their own privacy policies and are used solely to provide the app’s functionality.</p>
+
+        <h2>Data Retention & Deletion</h2>
+        <p>
+            Your account data (email, hashed password, coin balance, free uses) remains stored as long as your account is active. 
+            If you wish to delete all your data, you can request account deletion by contacting us (see below). 
+            Upon verification, we will remove your Firestore document and ask Firebase to delete your authentication record. 
+            Please note that purchase records are managed by Google and cannot be deleted by us.
+        </p>
+
+        <h2>Children’s Privacy</h2>
+        <p>
+            BMI Checker is not directed to children under 13. We do not knowingly collect personal information from children. 
+            If you are a parent and believe your child has created an account, please contact us so we can delete the data.
+        </p>
+
+        <h2>Security</h2>
+        <p>
+            We rely on Firebase’s industry‑standard security measures to protect your account credentials and stored data. 
+            However, no online service is 100% secure. You should always use a strong, unique password for your account.
+        </p>
+
+        <h2>Changes to This Privacy Policy</h2>
+        <p>
+            We may update this policy occasionally. Any changes will be posted on this page with a revised effective date. 
+            Continued use of the app after changes means you accept the updated policy.
+        </p>
+
+        <h2>Contact Us</h2>
+        <p>
+            If you have questions about this privacy policy or wish to request data deletion, please contact:
+        </p>
+        <p>
+            <strong>Email:</strong>
+            <a href="mailto:vijaygpc7@gmail.com">
+                vijaygpc7@gmail.com
+            </a>
+        </p>
+
+        <footer>
+            © BMI Checker – Your health, your privacy.
+        </footer>
+
+    </div>
+</div>
+
+</body>
+</html>
