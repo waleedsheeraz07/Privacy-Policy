@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Privacy Policy | Tap or Die</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+    :root {
+        --primary: #00E676;      /* Neon green - correct tap */
+        --danger: #FF5252;       /* Red - wrong tap / die */
+        --accent: #FFD700;       /* Gold - score/highlight */
+        --background: #0A0A1A;   /* Dark background like game */
+        --card-bg: #16162A;
+        --text-primary: #E0E0E0;
+        --text-secondary: #A0A0B0;
+        --border: #2A2A40;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Segoe UI', 'Poppins', system-ui, sans-serif;
+        background: var(--background);
+        color: var(--text-primary);
+    }
+
+    .container {
+        max-width: 900px;
+        margin: 60px auto;
+        padding: 0 20px;
+    }
+
+    .card {
+        background: var(--card-bg);
+        border: 1px solid var(--border);
+        border-radius: 32px;
+        padding: 40px;
+        box-shadow: 0 15px 35px rgba(0, 230, 118, 0.15);
+    }
+
+    h1 {
+        color: var(--primary);
+        margin-bottom: 10px;
+        font-size: 2.2rem;
+        letter-spacing: -0.5px;
+    }
+
+    .subtitle {
+        color: var(--text-secondary);
+        font-size: 0.95rem;
+        margin-bottom: 30px;
+    }
+
+    h2 {
+        color: var(--accent);
+        margin-top: 35px;
+        font-size: 1.3rem;
+        border-left: 4px solid var(--danger);
+        padding-left: 12px;
+    }
+
+    p {
+        line-height: 1.7;
+        margin: 12px 0;
+        color: var(--text-secondary);
+    }
+
+    ul {
+        margin: 15px 0 15px 22px;
+    }
+
+    ul li {
+        margin: 8px 0;
+        color: var(--text-secondary);
+    }
+
+    .highlight {
+        background: rgba(0, 230, 118, 0.08);
+        border-left: 5px solid var(--primary);
+        padding: 18px 22px;
+        border-radius: 20px;
+        margin: 25px 0;
+        font-weight: 500;
+        color: var(--text-primary);
+    }
+
+    .info-box {
+        background: rgba(255, 82, 82, 0.08);
+        border: 1px solid rgba(255, 82, 82, 0.25);
+        border-radius: 16px;
+        padding: 16px 20px;
+        margin: 20px 0;
+    }
+
+    footer {
+        margin-top: 45px;
+        padding-top: 20px;
+        border-top: 1px solid var(--border);
+        text-align: center;
+        color: var(--text-secondary);
+        font-size: 0.85rem;
+    }
+
+    a {
+        color: var(--primary);
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+    a:hover {
+        text-decoration: underline;
+        color: var(--accent);
+    }
+
+    strong {
+        color: var(--primary);
+    }
+
+    .badge {
+        display: inline-block;
+        background: rgba(0, 230, 118, 0.15);
+        border-radius: 50px;
+        padding: 4px 12px;
+        font-size: 0.8rem;
+        font-weight: 600;
+        color: var(--primary);
+        margin-right: 8px;
+    }
+</style>
+
+</head>
+<body>
+
+<div class="container">
+    <div class="card">
+
+    <h1>💀 TAP OR DIE</h1>
+    <div class="subtitle">
+        Privacy Policy &nbsp;•&nbsp; Effective Date: 27/04/2026
+    </div>
+
+    <p>
+        <strong>Tap or Die</strong> is a fast‑paced reflex game. Three circles appear on screen — one green, two red. Tap the <strong>green circle</strong> before the timer runs out to earn points and keep playing. Tap a red circle, miss completely, or let the timer hit zero, and it's game over. As your score increases, the allowed time shrinks, and the background changes color. The game is designed to be <strong>completely private</strong> — no tracking, no data collection, no internet required.
+    </p>
+
+    <div class="highlight">
+        🛡️ <strong>Zero data collection</strong> — This app never collects, stores, or shares any personal or gameplay information externally. Your high score stays only on your device.
+    </div>
+
+    <h2>Information Collection and Use</h2>
+    <p>
+        Tap or Die does <strong>not collect any data</strong>. There are no analytics SDKs, no crash reporting tools, no advertising frameworks, and no internet permission. The app works fully offline.
+    </p>
+    <ul>
+        <li>No personal information (name, email, device ID, location, etc.) is collected.</li>
+        <li>Your current score and best (high) score are saved <strong>only locally</strong> on your device using Android SharedPreferences.</li>
+        <li>No scores, gameplay data, or any other information are ever sent to any server or third party.</li>
+        <li>No network access is required or used — the game runs 100% offline.</li>
+    </ul>
+
+    <h2>Local Storage (SharedPreferences)</h2>
+    <p>
+        The game stores exactly one piece of data on your device: your <strong>best score</strong> (the highest number of green circles you have successfully tapped before dying). This data is only used to display your personal high score in the game over screen. Uninstalling the app removes this data automatically.
+    </p>
+
+    <h2>Gameplay Overview</h2>
+    <p>
+        When you start a new game, three circles appear at random positions on the screen (spaced apart). One circle is bright <strong class="badge">GREEN</strong> — tapping it gives you +1 point, makes the game slightly faster (time limit reduces gradually), and spawns a fresh set of circles. The other two circles are <strong class="badge" style="background:rgba(255,82,82,0.15);color:#FF5252;">RED</strong> — tapping any red circle ends the game immediately. If you tap anywhere outside all circles, the game also ends.
+    </p>
+    <p>
+        Each time you tap the green circle correctly:
+    </p>
+    <ul>
+        <li>Your score increases by 1.</li>
+        <li>The remaining time for the next round becomes slightly shorter (starting at 3 seconds, down to a minimum of 0.7 seconds).</li>
+        <li>The background color may change to a new exciting hue every 8 points.</li>
+        <li>A satisfying particle effect and screen flash occur.</li>
+    </ul>
+    <p>
+        All game logic (positions, timing, difficulty scaling, visual effects) runs locally on your device. No information about your taps, speed, or performance leaves your device.
+    </p>
+
+    <h2>App Permissions</h2>
+    <p>
+        Tap or Die requires <strong>no special permissions</strong>. It does not access the internet, storage (beyond its own private SharedPreferences for high score), camera, microphone, contacts, or location. The game only draws on the screen and registers touch events.
+    </p>
+
+    <h2>Third-Party Services</h2>
+    <p>
+        This app uses <strong>no third‑party libraries</strong> that collect data. No ads, no analytics, no crash reporters. The only external code is the standard Android SDK and AppCompat (both required to run the app).
+    </p>
+
+    <h2>Children’s Privacy</h2>
+    <p>
+        Because no data is collected in any form, Tap or Die is safe for children of all ages. It fully complies with COPPA, GDPR‑K, and other child privacy regulations. The game contains no in‑app purchases, no chat, no user‑generated content, and no external links.
+    </p>
+
+    <h2>Data Security</h2>
+    <p>
+        With zero data transmission or storage outside your device, there is no risk of data breaches, leaks, or unauthorised access. Your best score is stored using Android’s standard secure local storage (SharedPreferences), accessible only by the app itself.
+    </p>
+
+    <h2>Data Retention and Deletion</h2>
+    <p>
+        No data is retained beyond your device’s local storage. To delete all app‑related data (including your best score):
+    </p>
+    <ul>
+        <li>Go to Android Settings → Apps → Tap or Die → Storage → Clear Data, or</li>
+        <li>Simply uninstall the app.</li>
+    </ul>
+    <p>
+        After uninstallation, no trace of your gameplay remains.
+    </p>
+
+    <div class="info-box">
+        ⏱️ <strong>How to play:</strong> Tap the green circle before the timer runs out. Avoid red circles and misses. Each correct tap makes the game faster. How high can you score?
+    </div>
+
+    <h2>Changes to This Privacy Policy</h2>
+    <p>
+        If the game is updated with new features that require data handling (e.g., online leaderboards or cloud saves), this policy will be updated and a new effective date will be posted. You will be notified via the app’s store listing or an in‑app notice. The current policy always reflects the app's behavior.
+    </p>
+
+    <h2>Contact Information</h2>
+    <p>
+        For any questions or concerns regarding this Privacy Policy or the app’s data practices:
+    </p>
+    <p>
+        <strong>Email:</strong>
+        <a href="mailto:sumanjakhar10042004@gmail.com">
+            sumanjakhar10042004@gmail.com
+        </a>
+    </p>
+
+    <footer>
+        © Tap or Die — Tap the green. Survive the speed. Beat your best.
+    </footer>
+
+</div>
+</div>
+
+</body>
+</html>
