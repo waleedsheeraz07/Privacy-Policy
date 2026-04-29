@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Privacy Policy | Edge Escape</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+    :root {
+        --primary: #00E5FF;      /* Neon cyan - player dot */
+        --danger: #FF5252;       /* Red - edge collision */
+        --accent: #FFD700;       /* Gold - score/highlight */
+        --background: #0A0A1A;   /* Dark background */
+        --card-bg: #16162A;
+        --text-primary: #E0E0E0;
+        --text-secondary: #A0A0B0;
+        --border: #2A2A40;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Segoe UI', 'Poppins', system-ui, sans-serif;
+        background: var(--background);
+        color: var(--text-primary);
+    }
+
+    .container {
+        max-width: 900px;
+        margin: 60px auto;
+        padding: 0 20px;
+    }
+
+    .card {
+        background: var(--card-bg);
+        border: 1px solid var(--border);
+        border-radius: 32px;
+        padding: 40px;
+        box-shadow: 0 15px 35px rgba(0, 229, 255, 0.15);
+    }
+
+    h1 {
+        color: var(--primary);
+        margin-bottom: 10px;
+        font-size: 2.2rem;
+        letter-spacing: -0.5px;
+    }
+
+    .subtitle {
+        color: var(--text-secondary);
+        font-size: 0.95rem;
+        margin-bottom: 30px;
+    }
+
+    h2 {
+        color: var(--accent);
+        margin-top: 35px;
+        font-size: 1.3rem;
+        border-left: 4px solid var(--primary);
+        padding-left: 12px;
+    }
+
+    p {
+        line-height: 1.7;
+        margin: 12px 0;
+        color: var(--text-secondary);
+    }
+
+    ul {
+        margin: 15px 0 15px 22px;
+    }
+
+    ul li {
+        margin: 8px 0;
+        color: var(--text-secondary);
+    }
+
+    .highlight {
+        background: rgba(0, 229, 255, 0.08);
+        border-left: 5px solid var(--primary);
+        padding: 18px 22px;
+        border-radius: 20px;
+        margin: 25px 0;
+        font-weight: 500;
+        color: var(--text-primary);
+    }
+
+    .info-box {
+        background: rgba(255, 82, 82, 0.08);
+        border: 1px solid rgba(255, 82, 82, 0.25);
+        border-radius: 16px;
+        padding: 16px 20px;
+        margin: 20px 0;
+    }
+
+    footer {
+        margin-top: 45px;
+        padding-top: 20px;
+        border-top: 1px solid var(--border);
+        text-align: center;
+        color: var(--text-secondary);
+        font-size: 0.85rem;
+    }
+
+    a {
+        color: var(--primary);
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+    a:hover {
+        text-decoration: underline;
+        color: var(--accent);
+    }
+
+    strong {
+        color: var(--primary);
+    }
+
+    .badge {
+        display: inline-block;
+        background: rgba(0, 229, 255, 0.15);
+        border-radius: 50px;
+        padding: 4px 12px;
+        font-size: 0.8rem;
+        font-weight: 600;
+        color: var(--primary);
+        margin-right: 8px;
+    }
+</style>
+
+</head>
+<body>
+
+<div class="container">
+    <div class="card">
+
+    <h1>🌀 EDGE ESCAPE</h1>
+    <div class="subtitle">
+        Privacy Policy &nbsp;•&nbsp; Effective Date: 29/04/2026
+    </div>
+
+    <p>
+        <strong>Edge Escape</strong> is a fast‑paced arcade reflex game. A glowing dot moves across the screen. Tap anywhere to instantly change its direction toward your finger. Survive as long as possible without hitting the screen edges. The longer you survive, the faster the dot moves – up to 5× the starting speed. The game is designed to be <strong>completely private</strong> — no tracking, no data collection, no internet required.
+    </p>
+
+    <div class="highlight">
+        🛡️ <strong>Zero data collection</strong> — This app never collects, stores, or shares any personal or gameplay information externally. Your best (longest survival) time stays only on your device.
+    </div>
+
+    <h2>Information Collection and Use</h2>
+    <p>
+        Edge Escape does <strong>not collect any data</strong>. There are no analytics SDKs, no crash reporting tools, no advertising frameworks, and no internet permission. The app works fully offline.
+    </p>
+    <ul>
+        <li>No personal information (name, email, device ID, location, etc.) is collected.</li>
+        <li>Your current score (survival time in seconds) and your best (high) score are saved <strong>only locally</strong> on your device using Android SharedPreferences.</li>
+        <li>No scores, gameplay data, or any other information are ever sent to any server or third party.</li>
+        <li>No network access is required or used — the game runs 100% offline.</li>
+    </ul>
+
+    <h2>Local Storage (SharedPreferences)</h2>
+    <p>
+        The game stores exactly one piece of data on your device: your <strong>best score</strong> (the longest time you have survived without hitting an edge). This data is only used to display your personal best on the game over screen. Uninstalling the app removes this data automatically.
+    </p>
+
+    <h2>Gameplay Overview</h2>
+    <p>
+        When you start a new game, a glowing cyan dot appears in the centre of the screen and begins moving in a random direction. Your goal is to <strong>avoid the screen edges</strong> – touching any edge ends the game immediately.
+    </p>
+    <p>
+        <strong>How to play:</strong>
+    </p>
+    <ul>
+        <li>Tap anywhere on the screen → the dot instantly changes direction and flies toward your finger.</li>
+        <li>Each second you survive adds 1 point to your score.</li>
+        <li>The dot's speed increases gradually over time (by about 4.5% per second) until it reaches a maximum of 5× the starting speed.</li>
+        <li>A fading trail follows the dot, and the background cycles through smooth, shifting colours.</li>
+        <li>When you hit an edge, the screen shakes, particle effects explode, and the game ends.</li>
+    </ul>
+    <p>
+        All game logic (movement, collision detection, speed scaling, visual effects) runs locally on your device. No information about your taps, survival time, or performance leaves your device.
+    </p>
+
+    <h2>App Permissions</h2>
+    <p>
+        Edge Escape requires <strong>no special permissions</strong>. It does not access the internet, storage (beyond its own private SharedPreferences for high score), camera, microphone, contacts, or location. The game only draws on the screen and registers touch events.
+    </p>
+
+    <h2>Third-Party Services</h2>
+    <p>
+        This app uses <strong>no third‑party libraries</strong> that collect data. No ads, no analytics, no crash reporters. The only external code is the standard Android SDK and AppCompat (both required to run the app).
+    </p>
+
+    <h2>Children’s Privacy</h2>
+    <p>
+        Because no data is collected in any form, Edge Escape is safe for children of all ages. It fully complies with COPPA, GDPR‑K, and other child privacy regulations. The game contains no in‑app purchases, no chat, no user‑generated content, and no external links.
+    </p>
+
+    <h2>Data Security</h2>
+    <p>
+        With zero data transmission or storage outside your device, there is no risk of data breaches, leaks, or unauthorised access. Your best score is stored using Android’s standard secure local storage (SharedPreferences), accessible only by the app itself.
+    </p>
+
+    <h2>Data Retention and Deletion</h2>
+    <p>
+        No data is retained beyond your device’s local storage. To delete all app‑related data (including your best score):
+    </p>
+    <ul>
+        <li>Go to Android Settings → Apps → Edge Escape → Storage → Clear Data, or</li>
+        <li>Simply uninstall the app.</li>
+    </ul>
+    <p>
+        After uninstallation, no trace of your gameplay remains.
+    </p>
+
+    <div class="info-box">
+        🎮 <strong>How to play:</strong> Tap anywhere to redirect the dot. Avoid the edges. The longer you survive, the faster it gets. How many seconds can you last?
+    </div>
+
+    <h2>Changes to This Privacy Policy</h2>
+    <p>
+        If the game is updated with new features that require data handling (e.g., online leaderboards or cloud saves), this policy will be updated and a new effective date will be posted. You will be notified via the app’s store listing or an in‑app notice. The current policy always reflects the app's behavior.
+    </p>
+
+    <h2>Contact Information</h2>
+    <p>
+        For any questions or concerns regarding this Privacy Policy or the app’s data practices:
+    </p>
+    <p>
+        <strong>Email:</strong>
+        <a href="mailto:Chandravati12081974@gmail.com">
+            Chandravati12081974@gmail.com
+        </a>
+    </p>
+
+    <footer>
+        © Edge Escape — Tap. Redirect. Survive. Beat your best.
+    </footer>
+
+</div>
+</div>
+
+</body>
+</html>
