@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | Testers Dashboard</title>
+
+    <style>
+        :root {
+            --primary: #2196F3;
+            --primary-dark: #1976D2;
+            --secondary: #03DAC5;
+            --secondary-dark: #018786;
+            --text-primary: #1f2937;
+            --text-secondary: #4b5563;
+            --background: #FFFFFF;
+            --card: #FFFFFF;
+            --border: #E0E0E0;
+            --highlight-bg: #F3F8FE;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background: var(--background);
+            color: var(--text-primary);
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 60px auto;
+            padding: 0 20px;
+        }
+
+        .card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 10px 25px rgba(33, 150, 243, 0.08);
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+            color: var(--primary);
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        h1::before {
+            content: "📊";
+            font-size: 2rem;
+            font-weight: bold;
+            background: var(--secondary);
+            color: var(--primary-dark);
+            width: 48px;
+            height: 48px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 16px;
+        }
+
+        .subtitle {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid var(--border);
+        }
+
+        h2 {
+            font-size: 1.25rem;
+            margin-top: 35px;
+            margin-bottom: 10px;
+            color: var(--primary);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        h2::before {
+            content: "🔍";
+            font-size: 1rem;
+            opacity: 0.7;
+        }
+
+        p {
+            line-height: 1.7;
+            margin: 10px 0;
+            color: var(--text-secondary);
+        }
+
+        ul {
+            margin: 15px 0 15px 20px;
+        }
+
+        ul li {
+            margin: 8px 0;
+            color: var(--text-secondary);
+        }
+
+        .highlight {
+            background: var(--highlight-bg);
+            border-left: 4px solid var(--primary);
+            padding: 20px 25px;
+            border-radius: 12px;
+            margin: 25px 0;
+        }
+
+        .highlight strong {
+            color: var(--primary);
+        }
+
+        .badge {
+            display: inline-block;
+            background: var(--primary);
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            margin-right: 8px;
+        }
+
+        .feature-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        .feature-item {
+            background: var(--background);
+            padding: 12px 18px;
+            border-radius: 12px;
+            flex: 1;
+            min-width: 150px;
+            text-align: center;
+            font-size: 0.9rem;
+            color: var(--primary);
+            font-weight: 500;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border);
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            text-align: center;
+        }
+
+        a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: var(--primary-dark);
+        }
+
+        .contact-info {
+            background: var(--background);
+            padding: 15px 20px;
+            border-radius: 12px;
+            margin: 20px 0;
+        }
+
+        @media (max-width: 600px) {
+            .card {
+                padding: 25px;
+            }
+            h1 {
+                font-size: 1.6rem;
+            }
+            h2 {
+                font-size: 1.1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="card">
+
+        <h1>Privacy Policy</h1>
+        <div class="subtitle">
+            Testers Dashboard – Track app testing activity &nbsp;•&nbsp; Effective Date: <strong>06/05/2026</strong>
+        </div>
+
+        <p>
+            Testers Dashboard is a tool that helps app owners, managers, and testers collaborate
+            on testing mobile apps. It records which apps you test each day and shares that information
+            with the app’s owner. This policy explains what data we collect and how it is used.
+        </p>
+
+        <div class="highlight">
+            <strong>🔐 Your Privacy Matters</strong><br>
+            We collect only the information necessary for the app to function: your Google account
+            email, app data you create, and test records you submit. We do <strong>not</strong> share your
+            personal data with third parties for advertising or marketing. No analytics or tracking
+            SDKs are used beyond Firebase services.
+        </div>
+
+        <h2>Information We Collect</h2>
+        <p>
+            <span class="badge">Required</span> <strong>Google Account Information</strong><br>
+            When you sign in with Google, we receive your email address and profile name/photo.
+            This is used to identify you and to manage your roles (owner, manager, shared user).
+        </p>
+        <p>
+            <span class="badge">Required</span> <strong>App Data</strong><br>
+            App owners can add apps (name, package name). Managers and owners can edit app details
+            (shared users, managers). This data is stored in Firebase Firestore.
+        </p>
+        <p>
+            <span class="badge">Required</span> <strong>Test Records</strong><br>
+            When you save a test (after reaching 2 minutes of usage), we record:
+            <ul>
+                <li>Your email address</li>
+                <li>Timestamp of the test</li>
+                <li>App name and ID</li>
+            </ul>
+            This information is stored in the app’s subcollection and is visible to the app’s owner
+            and managers.
+        </p>
+        <p>
+            <span class="badge">Temporary</span> <strong>Usage Stats</strong><br>
+            The app reads foreground usage data via Android’s <code>UsageStatsManager</code> to
+            determine when you have used an app for ≥2 minutes in the last 5 minutes. This data
+            is never sent to any server; it remains on your device.
+        </p>
+
+        <div class="feature-grid">
+            <div class="feature-item">📧 Email (for login)</div>
+            <div class="feature-item">📱 App metadata</div>
+            <div class="feature-item">📝 Test timestamps</div>
+            <div class="feature-item">🔒 No tracking</div>
+            <div class="feature-item">🚫 No third‑party sharing</div>
+        </div>
+
+        <h2>How Your Data Is Used</h2>
+        <ul>
+            <li><strong>Authentication & Authorization:</strong> Your email is used to sign you in and to determine your role (owner, manager, shared user) within each app.</li>
+            <li><strong>App Management:</strong> App owners can see who has tested their apps and when. Managers can view test records and edit app details. Shared users can only test/install apps.</li>
+            <li><strong>User‑Driven Actions:</strong> When you “Save Test”, the record is stored so that app owners can track who has completed testing. If you later leave an app, your email is removed from that app’s access lists.</li>
+            <li><strong>No Advertising:</strong> Your data is never used for ads or sold to any party.</li>
+        </ul>
+
+        <h2>Data Storage & Security</h2>
+        <p>
+            All data (user profiles, apps, test records) is stored in <strong>Firebase Firestore</strong>,
+            a cloud database provided by Google. Firebase is GDPR‑compliant and uses strong encryption
+            at rest. Data is transmitted over encrypted HTTPS connections. Only the app owner and
+            managers (as defined per app) can view test records for that app.
+        </p>
+
+        <h2>Data Retention & Deletion</h2>
+        <ul>
+            <li><strong>User‑initiated deletion:</strong> When you delete an app (as owner), all its test records are also deleted. When you “leave” an app (as manager or shared user), your email is removed from that app’s access lists, but existing test records remain.</li>
+            <li><strong>Account deletion:</strong> To delete your entire account and all associated data (apps you own, test records, etc.), contact the developer at the email below. We will remove all data within 30 days.</li>
+            <li><strong>Automatic cleanup:</strong> Test records are not automatically deleted based on time, but owners can delete apps at any time.</li>
+        </ul>
+
+        <h2>Permissions Required</h2>
+        <ul>
+            <li><strong>android.permission.QUERY_ALL_PACKAGES</strong> – Used to detect if an app is installed (to show “Test” or “Install” button). This permission does not access user data.</li>
+            <li><strong>android.permission.PACKAGE_USAGE_STATS</strong> – Required to read foreground usage time (to determine when you have used an app for 2 minutes). This data is processed only on your device and never sent to the cloud.</li>
+            <li><strong>android.permission.INTERNET & ACCESS_NETWORK_STATE</strong> – Used for Firebase authentication and Firestore operations. No data is transmitted beyond the necessary app functions.</li>
+        </ul>
+        <p>No permissions for reading contacts, location, camera, microphone, or storage are ever requested.</p>
+
+        <h2>Third‑Party Services</h2>
+        <p>
+            Testers Dashboard uses the following third‑party services, each with their own privacy policies:
+        </p>
+        <ul>
+            <li><strong>Google Firebase</strong> – Authentication, Firestore (database). <a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Privacy & Security</a></li>
+            <li><strong>Google Sign‑In</strong> – For user authentication. <a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a></li>
+            <li><strong>Glide</strong> – For loading user profile images (from Google). The images are fetched directly from Google’s CDN, no extra tracking.</li>
+        </ul>
+        <p>No analytics, crash reporting, or advertising SDKs are used.</p>
+
+        <h2>Children’s Privacy</h2>
+        <p>
+            The app is not directed to children under 13. We do not knowingly collect personal information
+            from children. If you are a parent and believe your child has used the app, please contact us
+            to remove any data.
+        </p>
+
+        <h2>Your Rights (GDPR / CCPA)</h2>
+        <p>
+            You have the right to access, correct, or delete your data. To exercise these rights:
+        </p>
+        <ul>
+            <li>Within the app: you can leave an app (removing your email from its access lists) or ask the app owner to delete the app (removes all associated test records).</li>
+            <li>For full account deletion, email us with your email address.</li>
+        </ul>
+
+        <h2>Changes to This Privacy Policy</h2>
+        <p>
+            This policy may be updated if the app’s functionality changes. The latest version will always be
+            available at this URL. Continued use of the app after changes means you accept the updated policy.
+        </p>
+
+        <h2>Contact Information</h2>
+        <div class="contact-info">
+            <p style="margin: 0;">
+                <strong>Developer:</strong> WALEED SHEERAZ<br>
+                <strong>Email:</strong>
+                <a href="mailto:Waleedsheeraz06@gmail.com<">Waleedsheeraz06@gmail.com</a>
+            </p>
+        </div>
+
+        <footer>
+            <p>© 2026 Testers Dashboard. All rights reserved.</p>
+            <p style="margin-top: 10px; font-size: 0.75rem;">
+                Built with privacy in mind – only what's necessary for the app’s core functionality.
+            </p>
+        </footer>
+
+    </div>
+</div>
+
+</body>
+</html>
