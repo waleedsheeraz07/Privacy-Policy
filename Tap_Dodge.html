@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Privacy Policy | Tap Dodge</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+    :root {
+        --primary: #00E676;      /* Neon green - player color */
+        --danger: #FF5252;       /* Red - enemies */
+        --accent: #FFD700;       /* Gold - score/highlight */
+        --background: #0A0A1A;   /* Dark background like game */
+        --card-bg: #16162A;
+        --text-primary: #E0E0E0;
+        --text-secondary: #A0A0B0;
+        --border: #2A2A40;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Segoe UI', 'Poppins', system-ui, sans-serif;
+        background: var(--background);
+        color: var(--text-primary);
+    }
+
+    .container {
+        max-width: 900px;
+        margin: 60px auto;
+        padding: 0 20px;
+    }
+
+    .card {
+        background: var(--card-bg);
+        border: 1px solid var(--border);
+        border-radius: 32px;
+        padding: 40px;
+        box-shadow: 0 15px 35px rgba(0, 230, 118, 0.15);
+    }
+
+    h1 {
+        color: var(--primary);
+        margin-bottom: 10px;
+        font-size: 2.2rem;
+        letter-spacing: -0.5px;
+    }
+
+    .subtitle {
+        color: var(--text-secondary);
+        font-size: 0.95rem;
+        margin-bottom: 30px;
+    }
+
+    h2 {
+        color: var(--accent);
+        margin-top: 35px;
+        font-size: 1.3rem;
+        border-left: 4px solid var(--danger);
+        padding-left: 12px;
+    }
+
+    p {
+        line-height: 1.7;
+        margin: 12px 0;
+        color: var(--text-secondary);
+    }
+
+    ul {
+        margin: 15px 0 15px 22px;
+    }
+
+    ul li {
+        margin: 8px 0;
+        color: var(--text-secondary);
+    }
+
+    .highlight {
+        background: rgba(0, 230, 118, 0.08);
+        border-left: 5px solid var(--primary);
+        padding: 18px 22px;
+        border-radius: 20px;
+        margin: 25px 0;
+        font-weight: 500;
+        color: var(--text-primary);
+    }
+
+    .info-box {
+        background: rgba(255, 82, 82, 0.08);
+        border: 1px solid rgba(255, 82, 82, 0.25);
+        border-radius: 16px;
+        padding: 16px 20px;
+        margin: 20px 0;
+    }
+
+    footer {
+        margin-top: 45px;
+        padding-top: 20px;
+        border-top: 1px solid var(--border);
+        text-align: center;
+        color: var(--text-secondary);
+        font-size: 0.85rem;
+    }
+
+    a {
+        color: var(--primary);
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+    a:hover {
+        text-decoration: underline;
+        color: var(--accent);
+    }
+
+    strong {
+        color: var(--primary);
+    }
+
+    .badge {
+        display: inline-block;
+        background: rgba(0, 230, 118, 0.15);
+        border-radius: 50px;
+        padding: 4px 12px;
+        font-size: 0.8rem;
+        font-weight: 600;
+        color: var(--primary);
+        margin-right: 8px;
+    }
+</style>
+
+</head>
+<body>
+
+<div class="container">
+    <div class="card">
+
+    <h1>🎯 TAP DODGE</h1>
+    <div class="subtitle">
+        Privacy Policy &nbsp;•&nbsp; Effective Date: 21/05/2026
+    </div>
+
+    <p>
+        <strong>Tap Dodge</strong> is a fast‑paced reflex game. Control a green circle at the bottom of the screen. Red enemy circles fall from the top. <strong>Tap the left half of the screen to move left, right half to move right</strong> – dodge all enemies. Each enemy that falls off the bottom without hitting you gives <strong>+1 point</strong>. If any enemy touches you, the game ends. As your score increases, enemies move faster. The game is designed to be <strong>completely private</strong> — no tracking, no data collection, no internet required.
+    </p>
+
+    <div class="highlight">
+        🛡️ <strong>Zero data collection</strong> — This app never collects, stores, or shares any personal or gameplay information externally. Your high score stays only on your device.
+    </div>
+
+    <h2>Information Collection and Use</h2>
+    <p>
+        Tap Dodge does <strong>not collect any data</strong>. There are no analytics SDKs, no crash reporting tools, no advertising frameworks, and no internet permission. The app works fully offline.
+    </p>
+    <ul>
+        <li>No personal information (name, email, device ID, location, etc.) is collected.</li>
+        <li>Your current score and best (high) score are saved <strong>only locally</strong> on your device using Android SharedPreferences.</li>
+        <li>No scores, gameplay data, or any other information are ever sent to any server or third party.</li>
+        <li>No network access is required or used — the game runs 100% offline.</li>
+    </ul>
+
+    <h2>Local Storage (SharedPreferences)</h2>
+    <p>
+        The game stores exactly one piece of data on your device: your <strong>best score</strong> (the highest number of enemies you have successfully dodged before being hit). This data is only used to display your personal high score on the game over screen. Uninstalling the app removes this data automatically.
+    </p>
+
+    <h2>Gameplay Overview</h2>
+    <p>
+        When you start a new game, a green player circle appears at the bottom center. Red enemy circles spawn randomly from the top and fall downward. Your goal is to avoid all red circles.
+    </p>
+    <ul>
+        <li><strong>Movement:</strong> Tap the left half of the screen → player moves left. Tap the right half → player moves right.</li>
+        <li><strong>Scoring:</strong> Every enemy that exits the bottom of the screen without hitting you gives +1 point.</li>
+        <li><strong>Collision:</strong> If a red enemy touches the green player circle, the game ends immediately.</li>
+        <li><strong>Difficulty:</strong> As your score increases, enemy fall speed gradually increases (capped at a maximum).</li>
+        <li><strong>Game over & restart:</strong> After a collision, the game over screen shows your final score and best score. Tap anywhere to start a new game.</li>
+    </ul>
+    <p>
+        All game logic (enemy positions, movement, collision detection, scoring) runs locally on your device. No information about your taps, speed, or performance leaves your device.
+    </p>
+
+    <h2>App Permissions</h2>
+    <p>
+        Tap Dodge requires <strong>no special permissions</strong>. It does not access the internet, storage (beyond its own private SharedPreferences for high score), camera, microphone, contacts, or location. The game only draws on the screen and registers touch events.
+    </p>
+
+    <h2>Third-Party Services</h2>
+    <p>
+        This app uses <strong>no third‑party libraries</strong> that collect data. No ads, no analytics, no crash reporters. The only external code is the standard Android SDK and AppCompat (both required to run the app).
+    </p>
+
+    <h2>Children’s Privacy</h2>
+    <p>
+        Because no data is collected in any form, Tap Dodge is safe for children of all ages. It fully complies with COPPA, GDPR‑K, and other child privacy regulations. The game contains no in‑app purchases, no chat, no user‑generated content, and no external links.
+    </p>
+
+    <h2>Data Security</h2>
+    <p>
+        With zero data transmission or storage outside your device, there is no risk of data breaches, leaks, or unauthorised access. Your best score is stored using Android’s standard secure local storage (SharedPreferences), accessible only by the app itself.
+    </p>
+
+    <h2>Data Retention and Deletion</h2>
+    <p>
+        No data is retained beyond your device’s local storage. To delete all app‑related data (including your best score):
+    </p>
+    <ul>
+        <li>Go to Android Settings → Apps → Tap Dodge → Storage → Clear Data, or</li>
+        <li>Simply uninstall the app.</li>
+    </ul>
+    <p>
+        After uninstallation, no trace of your gameplay remains.
+    </p>
+
+    <div class="info-box">
+        🎮 <strong>Quick tip:</strong> Watch the falling red enemies and tap the side of the screen that gives you more room. The higher your score, the faster they fall!
+    </div>
+
+    <h2>Changes to This Privacy Policy</h2>
+    <p>
+        If the game is updated with new features that require data handling (e.g., online leaderboards or cloud saves), this policy will be updated and a new effective date will be posted. You will be notified via the app’s store listing or an in‑app notice. The current policy always reflects the app's behavior.
+    </p>
+
+    <h2>Contact Information</h2>
+    <p>
+        For any questions or concerns regarding this Privacy Policy or the app’s data practices:
+    </p>
+    <p>
+        <strong>Email:</strong>
+        <a href="mailto:privacy@tapdodge.com">
+            privacy@tapdodge.com
+        </a>
+        <br>
+        <span style="font-size:0.85rem;">(Replace with the developer's actual email address before publishing)</span>
+    </p>
+
+    <footer>
+        © Tap Dodge — Dodge, survive, beat your best.
+    </footer>
+
+</div>
+</div>
+
+</body>
+</html>
