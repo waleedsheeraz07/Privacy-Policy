@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Privacy Policy | Stack Tower</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+    :root {
+        --primary: #FFB347;      /* Warm orange - moving block */
+        --danger: #FF5252;       /* Red - game over */
+        --accent: #FFD700;       /* Gold - perfect bonus */
+        --background: #FFF5E6;   /* Light cream background */
+        --card-bg: #FFFFFF;
+        --text-primary: #2C3E50;
+        --text-secondary: #5D6D7E;
+        --border: #E0D5C1;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Segoe UI', 'Poppins', system-ui, sans-serif;
+        background: var(--background);
+        color: var(--text-primary);
+    }
+
+    .container {
+        max-width: 900px;
+        margin: 60px auto;
+        padding: 0 20px;
+    }
+
+    .card {
+        background: var(--card-bg);
+        border: 1px solid var(--border);
+        border-radius: 32px;
+        padding: 40px;
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
+    }
+
+    h1 {
+        color: var(--primary);
+        margin-bottom: 10px;
+        font-size: 2.2rem;
+        letter-spacing: -0.5px;
+    }
+
+    .subtitle {
+        color: var(--text-secondary);
+        font-size: 0.95rem;
+        margin-bottom: 30px;
+    }
+
+    h2 {
+        color: var(--danger);
+        margin-top: 35px;
+        font-size: 1.3rem;
+        border-left: 4px solid var(--primary);
+        padding-left: 12px;
+    }
+
+    p {
+        line-height: 1.7;
+        margin: 12px 0;
+        color: var(--text-secondary);
+    }
+
+    ul {
+        margin: 15px 0 15px 22px;
+    }
+
+    ul li {
+        margin: 8px 0;
+        color: var(--text-secondary);
+    }
+
+    .highlight {
+        background: rgba(255, 179, 71, 0.08);
+        border-left: 5px solid var(--primary);
+        padding: 18px 22px;
+        border-radius: 20px;
+        margin: 25px 0;
+        font-weight: 500;
+        color: var(--text-primary);
+    }
+
+    .info-box {
+        background: rgba(255, 82, 82, 0.08);
+        border: 1px solid rgba(255, 82, 82, 0.25);
+        border-radius: 16px;
+        padding: 16px 20px;
+        margin: 20px 0;
+    }
+
+    footer {
+        margin-top: 45px;
+        padding-top: 20px;
+        border-top: 1px solid var(--border);
+        text-align: center;
+        color: var(--text-secondary);
+        font-size: 0.85rem;
+    }
+
+    a {
+        color: var(--primary);
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+    a:hover {
+        text-decoration: underline;
+        color: var(--accent);
+    }
+
+    strong {
+        color: var(--primary);
+    }
+
+    .badge {
+        display: inline-block;
+        background: rgba(255, 179, 71, 0.15);
+        border-radius: 50px;
+        padding: 4px 12px;
+        font-size: 0.8rem;
+        font-weight: 600;
+        color: var(--primary);
+        margin-right: 8px;
+    }
+</style>
+
+</head>
+<body>
+
+<div class="container">
+    <div class="card">
+
+    <h1>🏗️ STACK TOWER</h1>
+    <div class="subtitle">
+        Privacy Policy &nbsp;•&nbsp; Effective Date: 21/05/2026
+    </div>
+
+    <p>
+        <strong>Stack Tower</strong> is a precision‑based stacking game. A tower of coloured blocks rises from the bottom. A moving block slides left and right at the top – <strong>tap anywhere on the screen</strong> to drop it onto the tower. Only the overlapping part remains, and the next block starts sliding. The game tests your timing: the more precisely you align the block, the higher your score. <strong>Perfect alignments give bonus points.</strong> As your stack grows, the block moves faster. The game is designed to be <strong>completely private</strong> — no tracking, no data collection, no internet required.
+    </p>
+
+    <div class="highlight">
+        🛡️ <strong>Zero data collection</strong> — This app never collects, stores, or shares any personal or gameplay information externally. Your high score stays only on your device.
+    </div>
+
+    <h2>Information Collection and Use</h2>
+    <p>
+        Stack Tower does <strong>not collect any data</strong>. There are no analytics SDKs, no crash reporting tools, no advertising frameworks, and no internet permission. The app works fully offline.
+    </p>
+    <ul>
+        <li>No personal information (name, email, device ID, location, etc.) is collected.</li>
+        <li>Your current score and best (high) score are saved <strong>only locally</strong> on your device using Android SharedPreferences.</li>
+        <li>No scores, gameplay data, or any other information are ever sent to any server or third party.</li>
+        <li>No network access is required or used — the game runs 100% offline.</li>
+    </ul>
+
+    <h2>Local Storage (SharedPreferences)</h2>
+    <p>
+        The game stores exactly one piece of data on your device: your <strong>best score</strong> (the highest number of blocks successfully stacked before the stack becomes too narrow or you miss). This data is only used to display your personal high score on the screen. Uninstalling the app removes this data automatically.
+    </p>
+
+    <h2>Gameplay Overview</h2>
+    <p>
+        When you start a new game, a base block appears at the bottom of the screen. A new block slides horizontally above the top block. Your goal is to tap at the right moment so that the moving block overlaps as much as possible with the tower below.
+    </p>
+    <ul>
+        <li><strong>Controls:</strong> Tap anywhere on the screen to drop the moving block.</li>
+        <li><strong>Scoring:</strong> Each successful stack gives +1 point. A perfect alignment (exact match) gives +5 points and a “PERFECT!” visual effect.</li>
+        <li><strong>Game over:</strong> If the moving block does not overlap at all with the tower below, the game ends. Also, if the remaining overlap width becomes extremely small (less than 15 pixels), the game ends.</li>
+        <li><strong>Difficulty:</strong> As your score increases, the sliding speed of the moving block gradually increases (capped at a maximum).</li>
+        <li><strong>Camera:</strong> The view scrolls automatically so the active block always stays centered on the screen – you never lose sight of the top of the tower.</li>
+        <li><strong>Restart:</strong> After game over, tap anywhere to start a fresh game.</li>
+    </ul>
+    <p>
+        All game logic (block positions, speed, collision detection, scoring, camera) runs locally on your device. No information about your taps, timing, or score leaves your device.
+    </p>
+
+    <h2>App Permissions</h2>
+    <p>
+        Stack Tower requires <strong>no special permissions</strong>. It does not access the internet, storage (beyond its own private SharedPreferences for high score), camera, microphone, contacts, or location. The game only draws on the screen and registers touch events.
+    </p>
+
+    <h2>Third-Party Services</h2>
+    <p>
+        This app uses <strong>no third‑party libraries</strong> that collect data. No ads, no analytics, no crash reporters. The only external code is the standard Android SDK and AppCompat (both required to run the app).
+    </p>
+
+    <h2>Children’s Privacy</h2>
+    <p>
+        Because no data is collected in any form, Stack Tower is safe for children of all ages. It fully complies with COPPA, GDPR‑K, and other child privacy regulations. The game contains no in‑app purchases, no chat, no user‑generated content, and no external links.
+    </p>
+
+    <h2>Data Security</h2>
+    <p>
+        With zero data transmission or storage outside your device, there is no risk of data breaches, leaks, or unauthorised access. Your best score is stored using Android’s standard secure local storage (SharedPreferences), accessible only by the app itself.
+    </p>
+
+    <h2>Data Retention and Deletion</h2>
+    <p>
+        No data is retained beyond your device’s local storage. To delete all app‑related data (including your best score):
+    </p>
+    <ul>
+        <li>Go to Android Settings → Apps → Stack Tower → Storage → Clear Data, or</li>
+        <li>Simply uninstall the app.</li>
+    </ul>
+    <p>
+        After uninstallation, no trace of your gameplay remains.
+    </p>
+
+    <div class="info-box">
+        🎯 <strong>Pro tip:</strong> Watch the moving block’s speed and tap when it is perfectly aligned with the tower below. Each perfect stack gives +5 points and speeds up the game – try to beat your own record!
+    </div>
+
+    <h2>Changes to This Privacy Policy</h2>
+    <p>
+        If the game is updated with new features that require data handling (e.g., online leaderboards or cloud saves), this policy will be updated and a new effective date will be posted. You will be notified via the app’s store listing or an in‑app notice. The current policy always reflects the app's behavior.
+    </p>
+
+    <h2>Contact Information</h2>
+    <p>
+        For any questions or concerns regarding this Privacy Policy or the app’s data practices:
+    </p>
+    <p>
+        <strong>Email:</strong>
+        <a href="mailto:Gauraprajapati2005@gmail.com">
+            Gauraprajapati2005@gmail.com
+        </a>
+        <br>
+        <span style="font-size:0.85rem;">(Replace with your actual email address before publishing)</span>
+    </p>
+
+    <footer>
+        © Stack Tower — Stack, align, conquer.
+    </footer>
+
+</div>
+</div>
+
+</body>
+</html>
